@@ -1,0 +1,183 @@
+body { background-image: url(../img/11.png);}
+.ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+        padding-top: 6px;
+
+    position: relative;
+}
+ul.menu > li > a {
+	margin: 6px;
+/*    display: block;
+*/    padding: 0px 27px;
+    color: white;
+    
+    text-decoration: none;
+    font-size: 14px;
+}
+ul.menu > li > a:hover {
+
+/*    background-color: black;
+*/}
+ul.submenu {
+    display: none;
+     
+
+    padding: 0;
+    position: absolute;
+    width: 148px;
+    height: 125px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    /*border: 1px solid red;*/
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+ul.submenu > li {
+	padding: 0;
+
+    display: block;
+}
+ul.submenu > li > a {
+
+	font-size: 14px;
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.conteiner{
+	margin: 11px auto;
+	width: 1000px;
+	position: relative;
+	background-color: white;
+}
+.verhl{
+	float: left;
+	width: 50%;
+}
+.im1{
+	position: absolute;
+	left: 27px;
+}
+.pad{
+	margin: 0px 12px;
+}
+.verhr{
+	margin: auto 32px auto 0px;
+	float: right;
+	    width: 326px;
+
+
+
+}
+.qq{margin: 0px 30px 0px 27px;}
+.qqq{margin: 0 18px 0 33px;}
+.qqqq{margin: 0 0 0 5px;}
+.kont{/*position: absolute;
+	right: 27px;*/
+float: right;
+	color: #128aa7;}
+	.str{float: right;
+		width: 344px;}
+	.name{float: left;}
+a{color: #128aa7;
+	font-size: 10px;
+
+}
+.kont p{
+	font-size: 13px;
+}
+.kart{
+	padding-top: 10px;
+	clear: both;
+}
+
+.menu p{
+float: left;
+color: white;
+margin: 0;
+padding: 7px 27px;
+font-size: 14px;
+
+}
+.menu{
+	padding: 0;
+	margin: 0;
+height: 30px;
+width: 100%;
+background: #343434;
+}
+.lll{
+	height: 687px;
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	border:1px solid #c7cacf;
+	text-align: center;
+}
+.lll p{
+	font-size: 14px;
+
+}
+.min{font-size: 5px;}
+.rrr{
+	width: 210px;
+	float: right;
+	background: #edeef0;
+	border:1px solid #c7cacf;
+	text-align: center;
+
+}
+.rrr p{
+	font-size: 14px;
+}
+
+.bo{
+	clear: both;
+	text-align: center;
+	color: white;
+}
+h3{
+	font-size: 18px;
+}
+.oll{background-image: url(img/11.png);
+
+
+}
+	
+
+	/* background-image: linear-gradient(#128aa7,#14cee1,#fcffff,#41c6d3;#0c77a1);
+	  
+  height: 130px;
+}*/
+
+  /* background-image: linear-gradient(#0000a0 10px, #80ffff, #ffffff, #0000ff);
+  height: 130px;
+  border: 1px solid #aaa;
+}*/
+
+.text{
+	background-color: white;
+	height: 689px;
+}
